@@ -1,0 +1,79 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.container {
+/*border: 1px solid red;*/
+margin: 10px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+
+.bulbasaur {
+/*border: 1px solid red;*/
+background-color: rgb(242,242,242);
+margin: 5px;
+border-radius: 15px;
+}
+
+.content {
+  /*border: 1px solid red;*/
+  margin: 5px;
+  padding: 10px;
+}
+
+.rectangle {
+	/*border: 1px solid red;*/
+	height: 200px;
+	width: 350px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: rgb(56,168,213);
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#grass {
+	background-color: rgb(156,202,88);
+	border-radius: 5px;
+	padding: 10px 30px;
+	width: 30%;
+	height: 40%;
+	color: white;
+}
+
+#poison {
+	background-color: rgb(184,129,199);
+	border-radius: 5px;
+	padding: 10px 30px;
+	width: 30%;
+	height: 40%;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+.attribute {
+	/*border: 1px solid black;*/
+	/*flex-basis: 45%;*/
+	width: 45%;
+	margin:5px;
+}
+
+p {
+	margin: 5px 0;
+}
